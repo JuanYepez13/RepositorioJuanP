@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minium-scale=1.0">
+    <title>Mi Portafolio Juan Pablo Yepez Isaza</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="stilo.css">
+    <script src="script.js" type="text/javascript"></script>
+    
+    <style>
+        .link{
+            color: black;
+        }
+    </style>
+    
+</head>
+<body>
+     <!-- SECCION I N I C I O -->
+     <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/JP/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">ACTIVIDADES</a></li>
+                            <li><a href="#skills" onclick="seleccionar(this)">HABILIDADES</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://github.com/JuanYepez13/RepositorioJuanP" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/juanpablo.yepezisaza/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/juan.yepez_/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                        <a href="https://www.iue.edu.co" target="_blank"><i class="fa-sharp fa-solid fa-building-columns"></i></a>
+                        <a href="https://neocities.org" target="_blank"><i class="fa-solid fa-shield-cat"></i></a>
+                        
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Juan Pablo Yépez Isaza</span>, estudiante de ingeniería informática en formación</h2>
+                <p class="descripcion"></p>
+                <a href="#portfolio">Ir al contenido</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Un poco sobre Mi</p>
+            <h2>Hola, Soy <span>Juan Pablo</span> </h2>
+            <h3>Estudiante de ingeniería informática</h3>
+            <p>Tengo 19 años y actualmente estoy en el 6° semestre de ingeniería Informatica en la Institución Universitaria de Envigado.</p>
+            <p>Para visualizar mi hoja de vida, haz click en el siguiente botón</p>
+            <a href="https://juanpabloyepezi.neocities.org/HojaVidav1.html" target="_blank">Ir a mi hoja de vida</a>
+        </div>
+    </section>
+
+
+    <!-- SECCION consultas, diseños, talleres y retos-->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis consultas, diseños, talleres, retos y más...</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-magnifying-glass"></i></span>
+                <h2>Consultas</h2>
+                <ol type="I">
+                    <li>
+                        <a href="https://juanpabloyepezi.neocities.org/Consulta_Dom/Consulta-Dom.html" target="_blank"  class="link">Consulta DOM</a>
+        
+                    </li>
+                    
+                    <li>
+                        <a href="https://juanpabloyepezi.neocities.org/consulta_Terminos_internet/TerminosInternet.html" target="_blank" s class="link">Consulta terminos de internet</a>
+                    </li>
+                    <li>Consulta 3</li>
+                    <li>Consulta 4</li>
+                    <li>Consulta 5</li>
+                  </ol>
+            </div>
+
+            <div class="servicio">
+                <span class="icono"><i class="fa-regular fa-object-group"></i></span>
+                <h2>Diseño</h2>
+                <ol type="I">
+                  <li>
+                      <a href="https://www.figma.com/file/7yx7frK4wMJKDAg4FmOMcE/Proyecto_Factuweb?node-id=3%3A3" target="_blank" class="link">Diseño Figma</a>
+                  </li>
+                  <li>Diseño 2</li>
+                  <li>Diseño 3</li>
+                  <li>Diseño 4</li>
+                  <li>Diseño 5</li>
+                </ol>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-marker"></i></span>
+                <h2>Talleres</h2>
+          <ol type="I">
+            <li>
+                <a href="https://juanpabloyepezi.neocities.org/HojaVidav1.html" target="_blank"  class="link">Hoja de vida</a>
+            </li>
+            <li>
+                <a href="https://juanpabloyepezi.neocities.org/factuweb-catalogo/catalogoVideoJuegos.html" target="_blank"  class="link">Catalogo de video juegos</a>
+            </li>
+            <li>Taller 3</li>
+            <li>Taller 4</li>
+            <li>Taller 5</li>
+          </ol>
+            </div>
+        
+            
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-trophy"></i></span>
+                    <h2>Retos</h2>
+                <ol type="I">
+                  <li>
+                    <a href="https://juanpabloyepezi.neocities.org/CalculadoraBasica/indexCal.html" target="_blank" class="link">Calculadora Basica</a>
+                  </li>
+                  <li>
+                    <a href="https://juanpabloyepezi.neocities.org/CalculadoraIMC/index.html" target="_blank" class="link">Calculadora IMC</a>
+                  </li>
+                  <li>
+                    <a href="https://juanpabloyepezi.neocities.org/Netflix/index.html" target="_blank" class="link">Netflix</a>
+                  </li>
+                  <li>Reto 4</li>
+                  <li>Reto 5</li>
+                </ol>
+            <div>
+
+        </div>
+    </section>
+
+   
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">50%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">50%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos</p>
+                <span class="porcentaje">70%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Photoshop</p>
+                <span class="porcentaje">55%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+        <div class="redes">
+            <a href="https://github.com/JuanYepez13/RepositorioJuanP" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/juanpablo.yepezisaza/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/juan.yepez_/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="https://www.iue.edu.co" target="_blank"><i class="fa-sharp fa-solid fa-building-columns"></i></a>
+            <a href="https://neocities.org" target="_blank"><i class="fa-solid fa-shield-cat"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
